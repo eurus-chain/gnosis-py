@@ -104,7 +104,8 @@ class EthereumNetwork(Enum):
     WAN = 888
     YETI = 977
     WAN_TESTNET = 999
-    KLAY_BAOBAB = 1001
+    EURUS = 1001
+    # KLAY_BAOBAB = 1001
     NEW_TESTNET = 1007
     EVC_EVRICE = 1010
     NEW = 1012
@@ -120,9 +121,10 @@ class EthereumNetwork(Enum):
     MOON_MOONSHADOW = 1288
     GANACHE = 1337
     CATECHAIN = 1618
+    EURUS_TESTNET = 1984
     EGEM = 1987
-    EURUS_DEV = 2020
-    EDG = 2021
+    EURUS_DEV = 2021
+    # EDG = 2021
     EDG_BERESHEET = 2022
     KORTHO = 2559
     FANTOM_TESTNET = 4002
