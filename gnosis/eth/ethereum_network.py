@@ -121,6 +121,7 @@ class EthereumNetwork(Enum):
     GANACHE = 1337
     CATECHAIN = 1618
     EGEM = 1987
+    EURUS_DEV = 2020
     EDG = 2021
     EDG_BERESHEET = 2022
     KORTHO = 2559
