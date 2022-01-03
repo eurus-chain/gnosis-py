@@ -61,7 +61,7 @@ class Multicall:
         self.w3 = ethereum_client.w3
         ethereum_network = ethereum_client.get_network()
         address = multicall_contract_address or self.ADDRESSES.get(ethereum_network)
-        logger.debug("Multicall for network %s, %d address: %s", ethereum_network.name, ethereum_network, address)
+        logger.warning("Multicall for network %s, %d address: %s", ethereum_network.name, ethereum_network, address)
         if not address:
             raise EthereumNetworkNotSupported(
                 "Multicall contract not available for %s", ethereum_network.name
